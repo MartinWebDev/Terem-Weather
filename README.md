@@ -4,12 +4,12 @@ which would imply a csv file would be passed in, presumably as a command line ar
 and then "stuff" occur to give the required output.\
 However, the initial conversation with Andrew suggested that the test would revolve more about API based stuff.
 
-Now, this is obviously somewhat ambigious between whether the expectation is a WebAPI project, or a Service, or even just a Respository.\
+Now, this is obviously somewhat ambigious between whether the expectation is a WebAPI project, or a Service, or even just a Respository.
 And any of these is not a "cli" project anyway. After further chatting with Andrew, we decided that I would make a sort of "in between" project.\
-Thus, I will be created a repository type system to handle all the actual magic, which can then be hooked up to either a cli,
+Thus, I will be creating a repository type system to handle all the actual magic, which can then be hooked up to either a cli,
 or a webapi, or anything else we might like.
 
-I feel this is a good compramise between the 2 ideas, and makes the project much easier to keep in line with good coding standards anyway,\
+I feel this is a good compromise between the 2 ideas, and makes the project much easier to keep in line with good coding standards anyway,
 namely separation of concerns and dependency inversion.
 
 # Assumptions
@@ -22,3 +22,9 @@ No interfaces have been created for low level models, such as WeatherDataMonth. 
 If you were ever to make changes to your underlying data structure then your interfaces would become outdated anyway and are therefore unnecessary.\
 Interfaces have only been created for items which could in theory be swapped and replaced without affecting other areas of the code,
 ie: the point of interfaces 👍
+
+I decided to forego the use of an IOC container and instead just do all my dependency inversion by hand. This is partly for simplicity,
+and partly as I don't really have any strong feelings towards any particular system. 
+
+Additionally, I have also done all data mapping by hand as well. We could simplify the code a lot by using something like AutoMapper,
+but again for simplicity I have just done it manually.
