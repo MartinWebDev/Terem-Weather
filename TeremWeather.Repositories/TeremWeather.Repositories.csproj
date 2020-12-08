@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeremWeather.Common\TeremWeather.Common.csproj" />
+    <ProjectReference Include="..\TeremWeather.Data\TeremWeather.Data.csproj" />
+  </ItemGroup>
+
+</Project>

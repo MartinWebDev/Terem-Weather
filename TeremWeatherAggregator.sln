@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeremWeather.Common", "TeremWeather.Common\TeremWeather.Common.csproj", "{04BD08B1-3299-46A9-9C6C-DED4C779E1E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6C912D5-793B-4ED2-BA46-8D533B36F7C6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeremWeather.Repositories", "TeremWeather.Repositories\TeremWeather.Repositories.csproj", "{0B3EF776-21A2-4F35-A7DC-6D5793B61C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeremWeather.Data", "TeremWeather.Data\TeremWeather.Data.csproj", "{B53276B2-1352-41A6-A4E7-B36A8B8C357E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D2CE2145-8858-4469-B286-A22AAABE5116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeremWeather.Data.Tests", "TeremWeather.Data.Tests\TeremWeather.Data.Tests.csproj", "{BAC1D97A-3620-4A10-95E8-402BE748C6CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04BD08B1-3299-46A9-9C6C-DED4C779E1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BD08B1-3299-46A9-9C6C-DED4C779E1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BD08B1-3299-46A9-9C6C-DED4C779E1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BD08B1-3299-46A9-9C6C-DED4C779E1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3EF776-21A2-4F35-A7DC-6D5793B61C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3EF776-21A2-4F35-A7DC-6D5793B61C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3EF776-21A2-4F35-A7DC-6D5793B61C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3EF776-21A2-4F35-A7DC-6D5793B61C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53276B2-1352-41A6-A4E7-B36A8B8C357E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53276B2-1352-41A6-A4E7-B36A8B8C357E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53276B2-1352-41A6-A4E7-B36A8B8C357E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53276B2-1352-41A6-A4E7-B36A8B8C357E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC1D97A-3620-4A10-95E8-402BE748C6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC1D97A-3620-4A10-95E8-402BE748C6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC1D97A-3620-4A10-95E8-402BE748C6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC1D97A-3620-4A10-95E8-402BE748C6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAC1D97A-3620-4A10-95E8-402BE748C6CF} = {B6C912D5-793B-4ED2-BA46-8D533B36F7C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A570F01-5203-460A-8622-A073D7E2FF61}
+	EndGlobalSection
+EndGlobal
